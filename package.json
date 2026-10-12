@@ -1,0 +1,13 @@
+{
+  "name": "pg-erp",
+  "version": "1.0.0",
+  "description": "ERP for running PG / hostel properties: tenants, rooms, rent billing, payments, expenses, maintenance and reports.",
+  "main": "server.js",
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "start": "node server.js",
+    "demo": "node scripts/demo-data.js",
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
